@@ -1,0 +1,32 @@
+﻿<Window x:Class="TeacherPortal.List"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TeacherPortal"
+        mc:Ignorable="d"
+        Title="List" Height="800" Width="1000">
+    <Grid x:Name="bookListGrid" Margin="0,0,-114,-16">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="addBook" Content="Add" HorizontalAlignment="Left" Margin="141,45,0,0" VerticalAlignment="Top" Height="39" Width="82" FontSize="18" Click="addBook_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="deleteBook" Content="Delete" HorizontalAlignment="Left" Margin="245,45,0,0" VerticalAlignment="Top" Height="39" Width="82" FontSize="18" Click="deleteBook_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="UpdateBook" Content="Update" HorizontalAlignment="Left" Margin="345,45,0,0" VerticalAlignment="Top" Height="39" Width="82" FontSize="18" Click="UpdateBook_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="addBook1" Content="Add" HorizontalAlignment="Left" Margin="660,45,0,0" VerticalAlignment="Top" Height="39" Width="82" FontSize="18" Click="addBook1_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="deleteBook1" Content="Delete" HorizontalAlignment="Left" Margin="764,45,0,0" VerticalAlignment="Top" Height="39" Width="82" FontSize="18" Grid.ColumnSpan="2"/>
+        <Button x:Name="updateBook" Content="Update" HorizontalAlignment="Left" Margin="864,45,0,0" VerticalAlignment="Top" Height="39" Width="82" FontSize="18" Grid.ColumnSpan="2"/>
+        <Label Content="List of Books" HorizontalAlignment="Left" Margin="196,114,0,0" VerticalAlignment="Top" FontSize="20" Grid.ColumnSpan="2"/>
+        <Label Content="List of Subjects" HorizontalAlignment="Left" Margin="673,114,0,0" VerticalAlignment="Top" FontSize="20" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="bookList" HorizontalAlignment="Left" Margin="133,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="432" Width="245" FontSize="18" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="subjectList" HorizontalAlignment="Left" Margin="660,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="432" Width="245" FontSize="18" Grid.ColumnSpan="2"/>
+        <Button x:Name="showBookList" Content="ShowList" HorizontalAlignment="Left" Margin="39,45,0,0" VerticalAlignment="Top" FontSize="18" Height="37" Width="75" Click="showBookList_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="addBook1_Copy" Content="Add" HorizontalAlignment="Left" Margin="660,45,0,0" VerticalAlignment="Top" Height="39" Width="82" FontSize="18" Click="addBook1_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="deleteSubject" Content="Delete" HorizontalAlignment="Left" Margin="764,45,0,0" VerticalAlignment="Top" Height="39" Width="82" FontSize="18" Click="deleteSubject_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="updateSubject" Content="Update" HorizontalAlignment="Left" Margin="864,45,0,0" VerticalAlignment="Top" Height="39" Width="82" FontSize="18" Click="updateSubject_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="showSubjectList" Content="ShowList" HorizontalAlignment="Left" Margin="537,45,0,0" VerticalAlignment="Top" Height="37" Width="84" FontSize="18" Click="showSubjectList_Click" Grid.ColumnSpan="2"/>
+        <Button Content="Logout" HorizontalAlignment="Left" Margin="782,652,0,0" VerticalAlignment="Top" Height="50" Width="123" FontSize="20" Click="Button_Click" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>

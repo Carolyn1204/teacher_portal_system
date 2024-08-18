@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddBook.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="addSubject.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DeleteBook.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DeleteSubject.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="List.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LoginPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RegisterPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateBook.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateSubject.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddBook.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="addSubject.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DeleteBook.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DeleteSubject.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="List.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LoginPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RegisterPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateBook.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateSubject.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

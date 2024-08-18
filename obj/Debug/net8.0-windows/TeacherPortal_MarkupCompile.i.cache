@@ -1,0 +1,20 @@
+﻿TeacherPortal
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\Carolyn\john abbott\C#\Visual Studio\TeacherPortal\obj\Debug\net8.0-windows\
+TeacherPortal
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+D:\Carolyn\john abbott\C#\Visual Studio\TeacherPortal\App.xaml
+10-1008823007
+
+15-1138238336
+199201680491
+AddBook.xaml;addSubject.xaml;DeleteBook.xaml;DeleteSubject.xaml;List.xaml;LoginPage.xaml;MainWindow.xaml;RegisterPage.xaml;UpdateBook.xaml;UpdateSubject.xaml;
+
+True
+
